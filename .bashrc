@@ -1,0 +1,6 @@
+alias chrome='/Applications/Chrome.app/Contents/MacOS/Google\ Chrome &'
+alias firefox='/Applications/Firefox.app/Contents/MacOS/firefox &'
+alias flip='expect -c '\''spawn ssh mcconnjo@flip.engr.oregonstate.edu ; expect password ; send "B1o2b3\n" ; interact'\'''
+alias itunes='/Applications/iTunes.app/Contents/MacOS/iTunes &'
+alias lsa='ls -al'
+alias tree='find . -print | sed -e '\''s;[^/]*/;|____;g;s;____|; |;g'\'''
