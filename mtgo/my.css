@@ -7,3 +7,24 @@
 	vertical-align: center;
 	
 }
+.image{
+	width:200px;
+}
+.ourblock{
+	width: 220px; 
+	padding-left: 30px;
+}
+#rightside{
+	border-left: 4px solid #b8b8b8;
+	min-height: 600px;
+	background-image: url('images/deckimage.png');
+	background-repeat: no-repeat;
+	
+}
+.card{
+	width: 80px;
+}
+.ui-input-search{
+	width: 70%;
+}
+
