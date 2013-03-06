@@ -1,4 +1,4 @@
-<?php include '../header.php'?>
+<?php include '../header.php';?>
 <link rel="stylesheet" href="../my.css" />
             <div data-role="content">
                 <div class="ui-grid-c">

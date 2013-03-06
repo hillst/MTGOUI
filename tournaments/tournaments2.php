@@ -16,7 +16,7 @@
             <div data-role="content">
                 <div class="ui-grid-b">
                     <div class="ui-block-a">
-                        <a data-role="button" href="#page1">
+                        <a data-role="button" href="tournaments.php">
                             Limited
                         </a>
                     </div>
@@ -44,24 +44,24 @@
                     </div>
                     <div class="ui-block-a dark">
                         <a href="#page1" onclick="javascript: $(this).alert("Are you sure you would like to enter")">
-                            RTR 8-4	<div class="queue">2/8</div>
+                            Standard 8-4	<div class="queue">2/8</div>
                         </a>
                         
                     </div>
                     <div class="ui-block-b dark end">
                     	<a href="#page1">
-                            RTR Sealed Daily Event <div class="queue">3/6/2013 10:00am</div>
+                            Standard Daily Event <div class="queue">3/6/2013 10:00am</div>
                         </a>
                     </div>
                     <div class="ui-block-a light">
                         <a href="#page1">
                    
-                            RTR 4-3-2-2	<div class="queue">7/8</div>
+                           Standard 4-3-2-2	<div class="queue">7/8</div>
                         </a>
                     </div>
                     <div class="ui-block-b light end">
                     	<a href="#page1">
-                            GTC Sealed Daily Event <div class="queue">3/6/2013 10:30am</div>
+                            Pro Tour Qualifier - Standard <div class="queue">3/6/2013 10:30am</div>
                         </a>
                     </div>
                     <div class="ui-block-a dark">

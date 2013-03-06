@@ -27,4 +27,29 @@
 .ui-input-search{
 	width: 70%;
 }
+h2{
+	text-align: center;
+}
 
+.dark{
+	background-color:#B8B8B8;
+	text-decoration: none;
+	
+	padding: 4px
+}
+.light{
+	text-decoration: none;
+	text-decoration: none;
+	padding: 4px;
+}
+.end{
+	border-right: 0px;
+}
+a{
+	
+	text-decoration: none;
+}
+.queue{
+	text-align: right;
+	float: right;
+}

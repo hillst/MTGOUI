@@ -8,7 +8,7 @@
         <title>
         </title>
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
-        <link rel="stylesheet" href="my.css" />
+        <link rel="stylesheet" href="../my.css" />
         <script src="http://code.jquery.com/jquery-1.7.2.min.js">
         </script>
         
@@ -41,23 +41,23 @@
                 <div data-role="navbar" data-iconpos="top">
                     <ul>
                         <li>
-                            <a href="#../index.php" data-transition="fade" data-theme="" data-icon="">
+                            <a href="../index.php" data-transition="fade" data-theme="" data-icon="">
                                 Home
                             </a>
                         </li>
                         <li>
-                            <a href="#../decks/app.php" data-transition="fade" data-theme="" data-icon="">
+                            <a href="../decks/app.php" data-transition="fade" data-theme="" data-icon="">
                                 Edit Decks
                             </a>
                         </li>
                         <li>
-                            <a href="#../tournaments/tournaments.php" data-transition="fade" data-theme="" data-icon="">
+                            <a href="../tournaments/tournaments.php" data-transition="fade" data-theme="" data-icon="">
                                 Play
                             </a>
                         </li>
                         <li>
-                            <a href="#../shop/shop.php" data-transition="fade" data-theme="" data-icon="">
-                                Button
+                            <a href="../auction/app.html" data-transition="fade" data-theme="" data-icon="">
+                                Shop
                             </a>
                         </li>
                     </ul>
