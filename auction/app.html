@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+        <link rel="stylesheet" href="my.css" />
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js">
+        </script>
+        
+        
+        <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+        
+        <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.js">
+        </script>
+        <script src="my.js">
+        </script>
+    </head>
+    <body>
+        <!-- Home -->
+            <div data-theme="a" data-role="header">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="#index.php" data-transition="fade" data-theme="" data-icon="">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#decks/app.php" data-transition="fade" data-theme="" data-icon="">
+                                Edit Decks
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#tournaments/tournaments.php" data-transition="fade" data-theme="" data-icon="">
+                                Play
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#shop/shop.php" data-transition="fade" data-theme="" data-icon="">
+                                Button
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+	<div data-role="content">
+        <div class="ui-grid-a">
+            <div class="ui-block-a ui-grid-a" style="padding: 10px;">
+                <div class="ui-block-a block-padding">
+                <ul data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Search cards..." data-inset="true" class="my-ul">
+            <li class="my-li-active"><a href="#">Alter's Light</a></li>
+            <li class="my-li-unactive"><a href="#">Ball Lightning</a></li>
+            <li class="my-li-unactive"><a href="#">Chain Lightning</a></li>
+            <li class="my-li-unactive"><a href="#">Lightning Bolt</a></li>
+            <li class="my-li-unactive"><a href="#">Puncturing Light</a></li>
+            <li class="my-li-unactive"><a href="#">Spectral Flight</a></li>
+            <li class="my-li-unactive"><a href="#">Twilight Mire</a></li>
+                </ul>
+                </div>
+                <div class="ui-block-b block-padding"><img src="images/Image.jpeg" /></div>
+            </div>
+            <div class="ui-block-b" style="padding: 10px;">
+                <div class="ui-block-b">
+                <table class="my-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Edition</th>
+                        <th>Price</th>
+                        <th>Purchase</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="magicrow-1" class="magicrow-active">
+                        <td>Lightning Bolt</td>
+                        <td>M12</td>
+                        <td>$0.75</td>
+                        <td><a href="#" data-role="button" data-theme="b" data-inline="true">Purchase</a></td>
+                    </tr>
+                    <tr id="magicrow-2" class="magicrow-unactive">
+                        <td>Lightning Bolt</td>
+                        <td>M13</td>
+                        <td>$0.75</td>
+                        <td><a href="#" data-role="button" data-theme="b" data-inline="true">Purchase</a></td>
+                    </tr>
+                    <tr id="magicrow-3" class="magicrow-unactive">
+                        <td>Lightning Bolt</td>
+                        <td>Alpha</td>
+                        <td>$19.35</td>
+                        <td><a href="#" data-role="button" data-theme="b" data-inline="true">Purchase</a></td>
+                    </tr>
+                    <tr id="magicrow-4" class="magicrow-unactive">
+                        <td>Lightning Bolt</td>
+                        <td>Beta</td>
+                        <td>$20.00</td>
+                        <td><a href="#" data-role="button" data-theme="b" data-inline="true">Purchase</a></td>
+                    </tr>
+                </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
