@@ -23,4 +23,24 @@ $(document).ready(function() {
        $("#magicrow-3").attr("class", "magicrow-unactive");
        $("#magicrow-4").attr("class", "magicrow-active");
    });
+  
+   $( ".confirm" ).bind("click", function() {
+	   $("#Confirmation").css("top", Math.max(0, (($(window).height() - $("#Confirmation").outerHeight()) / 2) + 
+	                                               $(window).scrollTop()) + "px");
+	   $("#Confirmation").css("left", Math.max(0, (($(window).width() - $("#Confirmation").outerWidth()) / 2) + 
+	                                                $(window).scrollLeft()) + "px");
+	   $('#Confirmation').show("slow");
+	  
+   });
+   $("#purchase").bind("click", function(){
+	   $("#complete").show();
+	   
+   });
+   
+   $("#x").bind("click", function() {
+	   $('#Confirmation').hide();
+   });
+   
+   
+
 });

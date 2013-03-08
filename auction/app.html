@@ -7,9 +7,9 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <title>
         </title>
-        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.css" />
         <link rel="stylesheet" href="my.css" />
-        <script src="http://code.jquery.com/jquery-1.7.2.min.js">
+        <script src="http://code.jquery.com/jquery-1.7.2.js">
         </script>
         
         
@@ -80,25 +80,25 @@
                         <td>Lightning Bolt</td>
                         <td>M12</td>
                         <td>$0.75</td>
-                        <td><a href="#" data-role="button" data-theme="b" data-inline="true">Purchase</a></td>
+                        <td><a href="#" data-role="button" data-theme="b" data-inline="true" class='confirm'>Purchase</a></td>
                     </tr>
                     <tr id="magicrow-2" class="magicrow-unactive">
                         <td>Lightning Bolt</td>
                         <td>M13</td>
                         <td>$0.75</td>
-                        <td><a href="#" data-role="button" data-theme="b" data-inline="true">Purchase</a></td>
+                        <td><a href="#" data-role="button" data-theme="b" data-inline="true" class='confirm'>Purchase</a></td>
                     </tr>
                     <tr id="magicrow-3" class="magicrow-unactive">
                         <td>Lightning Bolt</td>
                         <td>Alpha</td>
                         <td>$19.35</td>
-                        <td><a href="#" data-role="button" data-theme="b" data-inline="true">Purchase</a></td>
+                        <td><a href="#" data-role="button" data-theme="b" data-inline="true" class ='confirm'>Purchase</a></td>
                     </tr>
                     <tr id="magicrow-4" class="magicrow-unactive">
                         <td>Lightning Bolt</td>
                         <td>Beta</td>
                         <td>$20.00</td>
-                        <td><a href="#" data-role="button" data-theme="b" data-inline="true">Purchase</a></td>
+                        <td><a href="#" data-role="button" data-theme="b" data-inline="true" class = 'confirm'>Purchase</a></td>
                     </tr>
                 </tbody>
                 </table>
@@ -106,5 +106,30 @@
             </div>
         </div>
     </div>
+    <div id="Confirmation">
+    	<table>
+    		<tr>
+    		<td><img src= 'images/Image.jpeg' id ='size'></td>
+    		<td><div id= "x">X</div><br/> Cost: $2000.00 <p/> 
+    			<div data-role="fieldcontain">
+    			Choose Payment Method:
+    			<div data-role="fieldcontain">
+					<select name="select-choice-1" id="select-choice-1">
+						<option value="standard">Visa</option>
+						<option value="rush">Mastercard</option>
+						<option value="express">Paypal</option>
+					</select>
+				</div>
+    			Security Code:<br/>
+    			<input type="password" name="password" id="password" value="" />
+				</div>
+				<button id="purchase">Purchase!</button>
+    		</td>
+    		
+    		
+    	</table>
+    	    					<div id = "complete">Purchase Complete!</div>
+    	
+	</div>
     </body>
 </html>

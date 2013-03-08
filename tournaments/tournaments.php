@@ -1,16 +1,5 @@
 <?php include '../header.php'?>
-<script>
-  $(function() {
-  	$(".dark").each(function(){
-    $(this).click( function() {
-    alert("You have entered the queue.");
-	});
-	});
-	$(".light").click( function() {
-    alert("You have entered the queue.");
-	});
-  });
-   
+<script src = my.js>
 </script>
         <!-- Home -->
             <div data-role="content">
@@ -42,24 +31,24 @@
                             Scheduled
                         </h2>
                     </div>
-                    <div class="ui-block-a dark">
-                        <a href="#page1" onclick="javascript: $(this).alert("Are you sure you would like to enter")">
+                    <div class="ui-block-a dark confirm">
+                        <a href="#page1">
                             RTR 8-4	<div class="queue">2/8</div>
                         </a>
                         
                     </div>
-                    <div class="ui-block-b dark end">
+                    <div class="ui-block-b dark end confirm">
                     	<a href="#page1">
                             RTR Sealed Daily Event <div class="queue">3/6/2013 10:00am</div>
                         </a>
                     </div>
-                    <div class="ui-block-a light">
+                    <div class="ui-block-a lightconfirm ">
                         <a href="#page1">
                    
                             RTR 4-3-2-2	<div class="queue">7/8</div>
                         </a>
                     </div>
-                    <div class="ui-block-b light end">
+                    <div class="ui-block-b light end confirm">
                     	<a href="#page1">
                             GTC Sealed Daily Event <div class="queue">3/6/2013 10:30am</div>
                         </a>
@@ -117,5 +106,31 @@
                 </div>
             </div>
         </div>
+        <div id="Confirmation">
+        <div id= "x">X</div>
+    	<table>
+    		<tr>
+    		<td></td>
+    		<td><br/> Cost: $2000.00 <p/> 
+    			<div data-role="fieldcontain">
+    			Choose Payment Method:
+    			<div data-role="fieldcontain">
+					<select name="select-choice-1" id="select-choice-1">
+						<option value="standard">Visa</option>
+						<option value="rush">Mastercard</option>
+						<option value="express">Paypal</option>
+					</select>
+				</div>
+    			Security Code:<br/>
+    			<input type="password" name="password" id="password" value="" />
+				</div>
+				<button id="purchase">Purchase!</button>
+    		</td>
+    		
+    		
+    	</table>
+    	<div id = "complete">Purchase Complete!<p/>You have entered the Queue!</div>
+    	
+	</div>
     </body>
 </html>
