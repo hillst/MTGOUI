@@ -30,16 +30,23 @@ $(document).ready(function() {
 	   $("#Confirmation").css("left", Math.max(0, (($(window).width() - $("#Confirmation").outerWidth()) / 2) + 
 	                                                $(window).scrollLeft()) + "px");
 	   $('#Confirmation').show("slow");
+       $("#backdrop").show();
 	  
    });
    $("#purchase").bind("click", function(){
 	   $("#complete").show();
-	   
    });
    
    $("#x").bind("click", function() {
 	   $('#Confirmation').hide();
+       $("#backdrop").hide();
    });
+    $("#backdrop").bind("click", function() {
+       if($(this).attr("id") == "backdrop") {
+           $('#Confirmation').hide();
+           $("#backdrop").hide();
+       }
+    });
    
    
 
