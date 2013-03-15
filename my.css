@@ -2,7 +2,6 @@
 .homenav{
 	height: 200px;
 	width: 400px;
-	align: center;
 	text-align: center;
 	vertical-align: center;
 	
@@ -21,6 +20,7 @@
 	background-repeat: no-repeat;
 	
 }
+
 .card{
 	width: 80px;
 }
@@ -54,9 +54,10 @@ a{
 	float: right;
 }
 
-.confirmation {
-	
+.deck_name{
+	border-radius:4px;
 }
+
 #Confirmation { 
 	left: 340px;
 	top: 56px;
