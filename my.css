@@ -16,6 +16,13 @@
 #rightside{
 	border-left: 4px solid #b8b8b8;
 	min-height: 600px;
+	/*background-image: url('images/deckimage.png');*/
+	background-repeat: no-repeat;
+	
+}
+#picture{
+	border-left: 4px solid #FFF;
+	min-height: 600px;
 	background-image: url('images/deckimage.png');
 	background-repeat: no-repeat;
 	
@@ -85,4 +92,23 @@ a{
 	text-align: center;
 	
 	font-weight: bold;
+}
+
+
+.ui-page .ui-content .ui-btn.red .ui-btn-inner {
+    color      : white;
+    background : red;
+}
+
+.filter{
+	width:50%;
+	height:50%;
+}
+#fold{
+	height: 10%;
+	width: 10%;
+	float: right;
+}
+.ui-input-search{
+	width:40%;
 }
