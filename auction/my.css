@@ -11,26 +11,29 @@
 }
 .my-table {
     border-collapse: collapse;
-    border-radius: 6px;
+    border-radius: 9px;
     box-shadow: 0 1px 4px rgba(0,0,0,.3);
+    position: relative;
+    top: -319px;
+    left: -420px;
 }
 
 .my-table td, .my-table th {
-    padding: 15px 10px;
+    padding: 14px 10px;
     text-align: left;
+    white-space: nowrap;
 }
 
 .my-table > thead > tr {
-    
     border-top-width: 1px;
 }
 
-.my-table tr  {
-    border-bottom: 1px solid #C1C1C1;
+.my-table > tbody > tr  {
+    border-top: 1px solid #C1C1C1;
 }
 
 .block-padding {
-    padding: 10px;
+    padding: 15px;
 }
 .confirmation {
 	
@@ -77,4 +80,178 @@
     position:fixed;
     top: 0px;
     left: 0px;
+}
+
+.row-image {
+    position: relative;
+    z-index: 10;
+    top: 43px;
+    left: -8px;
+    height: 310px;
+    width: 219px;
+    padding: 4px;
+}
+
+#arrow-1 {
+    position: relative;
+    height: 0px;
+    width: 0px;
+    z-index: 10;
+}
+
+.side-arrow-1 {
+    top: -302px;
+    left: -35px;
+    border: 15px solid transparent;
+    border-right-color: black;
+}
+
+.side-arrow-2 {
+    top: -217px;
+    left: -35px;
+    border: 15px solid transparent;
+    border-right-color: black;
+}
+
+.side-arrow-3 {
+    top: -133px;
+    left: -35px;
+    border: 15px solid transparent;
+    border-right-color: black;
+}
+
+.side-arrow-4 {
+    top: -47px;
+    left: -35px;
+    border: 15px solid transparent;
+    border-right-color: black;
+}
+
+.friend-arrow-1 {
+    top: -306px;
+    left: 245px;
+    border: 15px solid transparent;
+    border-left-color: black;
+}
+
+.friend-arrow-2 {
+    top: -222px;
+    left: 245px;
+    border: 15px solid transparent;
+    border-left-color: black;
+}
+
+.friend-arrow-3 {
+    top: -137px;
+    left: 245px;
+    border: 15px solid transparent;
+    border-left-color: black;
+}
+
+.friend-arrow-4 {
+    top: -52px;
+    left: 245px;
+    border: 15px solid transparent;
+    border-left-color: black;
+}
+
+.friends-table {
+    border-collapse: collapse;
+    border-radius: 9px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.3);
+    position: relative;
+    left: 250px;
+    top: -710px;
+}
+
+.friends-table td {
+    padding: 14px 10px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.friends-table th {
+    padding: 14px 10px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.friends-table > thead > tr {
+    border-top-width: 1px;
+}
+
+.friends-table > tbody > tr  {
+    border-top: 1px solid #C1C1C1;
+}
+
+.card-image {
+    height: 310px;
+    position:relative;
+    left: -5px;
+    top: -20px;
+    border: 7px solid black;
+    border-radius: 10px;
+}
+
+.card-image-2 {
+    height: 310px;
+    position:relative;
+    left: -5px;
+    top: -5px;
+    border: 7px solid black;
+    border-radius: 10px;
+}
+
+.card-image-3 {
+    height: 310px;
+    position:relative;
+    left: -5px;
+    top: 10px;
+    border: 7px solid black;
+    border-radius: 10px;
+}
+
+.card-image-4 {
+    height: 310px;
+    position:relative;
+    left: -5px;
+    top: 25px;
+    border: 7px solid black;
+    border-radius: 10px;
+}
+
+.friend-image {
+    height: 310px;
+    position:relative;
+    left: 15px;
+    top: -25px;
+    border: 7px solid black;
+    border-radius: 10px;
+}
+
+.friend-image-2 {
+    height: 310px;
+    position:relative;
+    left: 15px;
+    top: -5px;
+    border: 7px solid black;
+    border-radius: 10px;
+}
+
+.friend-image-3 {
+    height: 310px;
+    position:relative;
+    left: 15px;
+    top: 10px;
+    border: 7px solid black;
+    border-radius: 10px;
+}
+
+.friend-image-4 {
+    height: 310px;
+    position:relative;
+    left: 15px;
+    top: 25px;
+    border: 7px solid black;
+    border-radius: 10px;
 }
