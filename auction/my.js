@@ -31,7 +31,7 @@ $(document).ready(function() {
 	                                                $(window).scrollLeft()) + "px");
 	   $('#Confirmation').show("slow");
        $("#backdrop").show();
-	  
+
    });
    $("#purchase").bind("click", function(){
 	   $("#complete").show();

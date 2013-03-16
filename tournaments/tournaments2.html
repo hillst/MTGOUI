@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="../jquery.mobile-1.2.0.css" />
+        <link rel="stylesheet" href="../MTGOUICSS.css" />
+        <link rel="stylesheet" href="../my.css" />
+        <script src="../jquery-1.7.2.min.js">
+        </script>
+        
+        
+        <script src="../jquery-ui.js"></script>
+        
+        <script src="../jquery.mobile-1.2.0.js">
+        </script>
+        <script src="my.js">
+        </script>
+        <!-- User-generated css -->
+        <style>
+        </style>
+        <!-- User-generated js -->
+        <script>
+            try {
+
+    $(function() {
+
+    });
+
+  } catch (error) {
+    console.error("Your javascript has an error: " + error);
+  }
+        </script>
+    </head>
+    <body>
+        <!-- Home -->
+            <div data-theme="a" data-role="header">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="../index.html" data-transition="fade" data-theme="" data-icon="">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../decks/app.html" data-transition="fade" data-theme="" data-icon="">
+                                Edit Decks
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../tournaments/tournaments.html" data-transition="fade" data-theme="" data-icon="">
+                                Play
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../auction/app.html" data-transition="fade" data-theme="" data-icon="">
+                                Shop
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+<script src="my.js">
+</script>
+        <!-- Home -->
+            <div data-role="content">
+                <div class="ui-grid-b">
+                    <div class="ui-block-a">
+                        <a data-role="button" href="tournaments.php">
+                            Limited
+                        </a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a data-role="button" href="tournaments2.php">
+                            Standard
+                        </a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a data-role="button" href="#page1">
+                            Modern
+                        </a>
+                    </div>
+                </div>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <h2>
+                            Flights
+                        </h2>
+                    </div>
+                    <div class="ui-block-b">
+                        <h2>
+                            Scheduled
+                        </h2>
+                    </div>
+                    <div class="ui-block-a dark confirm">
+                        <a href="#page1" >
+                            Standard 8-4	<div class=" queue">2/8</div>
+                        </a>
+                        
+                    </div>
+                    <div class="ui-block-b dark end confirm">
+                    	<a href="#page1">
+                            Standard Daily Event <div class="queue">3/6/2013 10:00am</div>
+                        </a>
+                    </div>
+                    <div class="ui-block-a light confirm">
+                        <a href="#page1">
+                   
+                           Standard 4-3-2-2	<div class=" queue">7/8</div>
+                        </a>
+                    </div>
+                    <div class="ui-block-b light end confirm">
+                    	<a href="#page1">
+                            Pro Tour Qualifier - Standard <div class=" queue">3/6/2013 10:30am</div>
+                        </a>
+                    </div>
+                    <div class="ui-block-a dark">
+                        <a href="#page1">
+                            ...
+                        </a>
+                    </div>
+                    <div class="ui-block-b dark end">
+                    	<a href="#page1">
+                            ...
+                        </a>
+                    </div>
+                    <div class="ui-block-a light">
+                        <a href="#page1">
+                            ...
+                        </a>
+                    </div>
+                    <div class="ui-block-b light end">
+                    	<a href="#page1">
+                            ...
+                        </a>
+                    </div>
+                    <div class="ui-block-a dark">
+                        <a href="#page1">
+                            ...
+                        </a>
+                    </div>
+                    <div class="ui-block-b dark end">
+                    	<a href="#page1">
+                            ...
+                        </a>
+                    </div>
+                    <div class="ui-block-a light">
+                        <a href="#page1">
+                            ...
+                        </a>
+                    </div>
+                    <div class="ui-block-b light end">
+                    	<a href="#page1">
+                            ...
+                        </a>
+                    </div>
+                    <div class="ui-block-a dark">
+                        <a href="#page1">
+                            ...
+                        </a>
+                    </div>
+                    <div class="ui-block-b dark end">
+                    	<a href="#page1">
+                            ...
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        <div id="Confirmation">
+        <div id= "x">X</div>
+    	<table>
+    		<tr>
+    		<td></td>
+    		<td><br/> Cost: $2000.00 <p/> 
+    			<div data-role="fieldcontain">
+    			Choose Payment Method:
+    			<div data-role="fieldcontain">
+					<select name="select-choice-1" id="select-choice-1">
+						<option value="standard">Visa</option>
+						<option value="rush">Mastercard</option>
+						<option value="express">Paypal</option>
+					</select>
+				</div>
+    			Security Code:<br/>
+    			<input type="password" name="password" id="password" value="" />
+				</div>
+				<button id="purchase">Purchase!</button>
+    		</td>
+    		
+    		
+    	</table>
+    	<div id = "complete">Purchase Complete! <br/>You have entered the Queue!</div>
+    	
+	</div>
+    </body>
+</html>

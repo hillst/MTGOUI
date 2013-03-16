@@ -112,3 +112,128 @@ a{
 .ui-input-search{
 	width:40%;
 }
+.magicrow-unactive {
+}
+.magicrow-unactive:hover {
+    background: #C1C1C1;
+    cursor: pointer;
+}
+
+.magicrow-active, .my-li-active {
+    background: #C1C1C1;
+    cursor: pointer;
+}
+.my-table {
+    border-collapse: collapse;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.3);
+}
+
+.my-table td, .my-table th {
+    padding: 15px 10px;
+    text-align: left;
+}
+
+.my-table > thead > tr {
+    
+    border-top-width: 1px;
+}
+
+.my-table tr  {
+    border-bottom: 1px solid #C1C1C1;
+}
+
+.block-padding {
+    padding: 10px;
+}
+.confirmation {
+	
+}
+#Confirmation { 
+	top: 100px;
+	left: 100px;
+	position: absolute;
+	width: 400px;
+	height: 350px;
+	display: none;
+	background-color: lightblue;
+	border-radius: 6px;
+	padding: 5px;
+    z-index: 100;
+}
+
+#size{
+	
+	height: 75%;
+}
+#x{
+	text-align: right;
+    cursor: pointer;
+}
+#complete{
+	padding:2px;
+	display:none;
+	text-align: center;
+	
+	font-weight: bold;
+}
+
+#backdrop {
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7; /* Safari, Opera */
+    -moz-opacity:0.70: /* FireFox */
+    filter: alpha(opacity=70); /* IE */
+    height: 100%;
+    width: 100%;
+    z-index: 50;
+    background-repeat:repeat;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+}
+
+a.css_button_account {
+
+ height: 145px;
+ width: 350px;
+ vertical-align: center;
+ background: url(./images/account.gif) top left no-repeat;
+ background-size: contain;
+
+}
+ 
+ 
+a.css_button_editdecks{
+
+ 	height: 145px;
+	width: 350px;
+	vertical-align: center;
+
+ background: url(./images/EditDecks.gif) top left no-repeat;
+  background-size: contain;
+
+}
+ 
+ 
+a.css_button_playnow {
+
+ height: 145px;
+ width: 350px;
+ vertical-align: center;
+ background: url(./images/playnow.gif) top left no-repeat;
+  background-size: contain;
+
+}
+ 
+ 
+a.css_button_shop {
+
+ 	height: 145px;
+	width: 350px;
+	 vertical-align: center;
+
+ background: url(./images/shop.gif) top left no-repeat;
+  background-size: contain;
+
+}

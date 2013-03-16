@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="../jquery.mobile-1.2.0.css" />
+        <link rel="stylesheet" href="../MTGOUICSS.css" />
+        <link rel="stylesheet" href="../my.css" />
+        <script src="../jquery-1.7.2.min.js">
+        </script>
+        
+        
+        <script src="../jquery-ui.js"></script>
+        
+        <script src="../jquery.mobile-1.2.0.js">
+        </script>
+        <script src="my.js">
+        </script>
+        <!-- User-generated css -->
+        <style>
+        </style>
+        <!-- User-generated js -->
+        <script>
+            try {
+
+    $(function() {
+
+    });
+
+  } catch (error) {
+    console.error("Your javascript has an error: " + error);
+  }
+        </script>
+    </head>
+    <body>
+        <!-- Home -->
+            <div data-theme="a" data-role="header">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="../index.html" data-transition="fade" data-theme="" data-icon="">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../decks/app.html" data-transition="fade" data-theme="" data-icon="">
+                                Edit Decks
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../tournaments/tournaments.html" data-transition="fade" data-theme="" data-icon="">
+                                Play
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../auction/app.html" data-transition="fade" data-theme="" data-icon="">
+                                Shop
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+<script>
+  $(function() {
+    $( ".card" ).draggable({
+    });
+    $("#stats").click(function(){
+    	$("#picture").css("background-image", "url('../images/stats.png')");
+    });
+    $("#save").click(function(){
+    	$("#title").html("Deck Title -- Save Successful!");
+    });
+  });
+   
+</script>
+            <div data-role="content">
+                <div class="ui-grid-a">
+
+                    <div class="ui-block-a">
+                    <h2 style="padding-bottom:12px;">Search your collection</h2>
+                    <img title="Not-implemented: Click one of the colors to filter out cards of that color." src = '../images/5colors.png' class = 'filter' style = "width:30%; margin-top:-5px; float:right;"></img>
+                    
+                    <input id="searchinput1" placeholder="Lightn" value="" type="search">
+                    <p/>
+                    <img src = "../images/fold.png" id ="fold" title="Not implemented- Clicking this would 'turn the page' like a binder."></img>
+                    <img class = 'card' src="../images/card1.png">
+                    <img class = 'card' src="../images/card2.png">
+                    <img class = 'card' src="../images/card3.png">
+                    <img class = 'card' src="../images/card4.png">
+					</div>
+					<h2 style="float: right;" id = 'title'>Deck Title</h2>
+                    <div class="ui-block-b" id = 'rightside'>
+                    <button data-inline="true" id='save'>Save</button><button  data-inline="true" id="stats">Deck Statistics</button>
+                    	<div data-inline="true" style="width: 50%; float:right; margin-top:7px;" data-role="fieldcontain">
+							<select name="select-choice-1" id="select-choice-1" title="Not implemented- This would allow you to sort your deck. The placeholder image is sorted by color.">
+								<option value="standard">Sort By: Color</option>
+								<option value="rush">Sort By: Converted Mana Cost</option>
+								<option value="express">Sort By: Card Type</option>
+							</select>
+						</div>
+						<div id="picture"></div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
